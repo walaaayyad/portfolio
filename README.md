@@ -1,22 +1,22 @@
 # Second Project
 ##    To Do List
-[x]Required Elements
-[x]Semantic HTML
-[x]Custom Design
-[x]Grid-Based Layout
+- Required Elements
+- Semantic HTML
+- Custom Design
+- Grid-Based Layout
 ###  Responsiveness
-[x]Cross-Device Compatibility
-[x]Provide All Content
-[x]Viewport meta Tag
-[x]Responsive Images
+- Cross-Device Compatibility
+- Provide All Content
+- Viewport meta Tag
+- Responsive Images
 ###  Separation of Concerns
-[x]Styles Separated From HTML
-[x]File structure
-[x]HTML Formatting rules
-[x]HTML Style Rules
+- Styles Separated From HTML
+- File structure
+- HTML Formatting rules
+- HTML Style Rules
 ###  Code Quality
-[x]CSS Formatting Rules
-[x]CSS Style Rules
-[x]General Meta Rules
+- CSS Formatting Rules
+- CSS Style Rules
+- General Meta Rules
 
 
