@@ -1,0 +1,235 @@
+body{
+	background-color: #f1e6c9 0.5;
+	font-family: 'Sail';
+	font-size: 15px;
+}
+/*
+ *
+ * common
+ *
+ */
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	}
+/*
+ *
+ * Header
+ *
+ */
+header {
+	width: inherit;
+	background-color: #f1e6c9;
+	margin-top: 5px;
+	flex-direction: row;
+}
+
+.logo {
+
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+
+header>h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #2b2121;
+}
+
+header>h5 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    color: #2b2121;
+}
+
+header>hr {
+	border-style: ridge;
+	border-color: #341a00;
+	border-width: 2px;
+
+}
+/*
+ *
+ * Main Image
+ *
+ */
+.mainImage {
+	margin-top: 5px;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+.middle>h2 {
+	color:#2b2121;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+.middle>hr {
+	width: 50%;
+	color: #341a00 0.5;
+}
+
+.middle {
+    height: 30%;
+}
+/*
+ *
+ * Second Section
+ *
+ */
+.secondSection {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:center;
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.project {
+	margin-top: 5px; 
+	padding-top: 5px;
+}
+
+.img {
+	width: 250px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.project>h4 {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 5px;
+	margin-bottom: 0;
+	padding-bottom: 2px;
+
+}
+
+.project>p {
+	text-align: center;
+	margin-top: 0;
+	font-size: 15px;
+	color: #341a00;
+}
+/*
+ *
+ * Footer
+ *
+ */
+footer {
+	width: 100%;
+	background-color: #f1e6c9;
+	border-top: double;
+	border-color: #341a00;
+}
+
+#icon {
+	font-size: 30px;
+	margin-left: 45%;
+	padding-top: 3px;
+}
+
+a {
+	color: #341a00;
+}
+/*
+ *
+ * Responsiveness 
+ *
+ */
+
+/*
+ *
+ * Tablet: Apple iPad
+ *
+ */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	h1 {
+		font-size: 30px;
+	}
+
+	h5 {
+		font-size: 15px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.secondSection {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.project {
+	    margin-top: 5px; 
+	    width: 30%;
+	    margin: auto;
+	}
+
+	.img {
+		width: 200px;
+	    height: 100px;
+	    margin-right: 3px;
+	    margin-left: 3px;
+	}	
+}
+/*
+ *
+ * Desktop 
+ *
+ */
+@media only screen and (min-width:1224px){
+	h1 {
+		font-size: 40px;
+		padding-left: 2%;
+	}
+
+	h5 {
+		font-size: 25px;
+		padding-left: 2%;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.logo {
+		width: 70px;
+		height: 70px;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
+	h4 {
+		font-size: 25px;
+	}
+
+	.mainImage {
+		width: 50%;
+		margin-left: 25%
+	}
+
+	.img {
+		width: 300px;
+		height: 150px;
+		margin: auto; 
+	}
+
+	#icon {
+	margin-left: 49%;
+	padding-top: 5px;
+}
