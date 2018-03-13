@@ -5,18 +5,18 @@
 - [x] Custom Design
 - [x] Grid-Based Layout
 ###  Responsiveness
-- Cross-Device Compatibility
-- Provide All Content
-- Viewport meta Tag
-- Responsive Images
+- [x] Cross-Device Compatibility
+- [x] Provide All Content
+- [x] Viewport meta Tag
+- [x] Responsive Images
 ###  Separation of Concerns
-- Styles Separated From HTML
-- File structure
-- HTML Formatting rules
-- HTML Style Rules
+- [x] Styles Separated From HTML
+- [x] File structure
+- [x] HTML Formatting rules
+- [x] HTML Style Rules
 ###  Code Quality
-- CSS Formatting Rules
-- CSS Style Rules
-- General Meta Rules
+- [x] CSS Formatting Rules
+- [x] CSS Style Rules
+- [x] General Meta Rules
 
 
