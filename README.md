@@ -1,9 +1,9 @@
 # Second Project
 ##    To Do List
-- Required Elements
-- Semantic HTML
-- Custom Design
-- Grid-Based Layout
+- [x] Required Elements
+- [x] Semantic HTML
+- [x] Custom Design
+- [x] Grid-Based Layout
 ###  Responsiveness
 - Cross-Device Compatibility
 - Provide All Content
