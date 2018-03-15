@@ -1,5 +1,5 @@
 body {
-	background-color: #f1e6c9 0.5;
+	background-color: rgba(241, 230, 201,0.1);
 	font-family: 'Sail';
 	font-size: 15px;
 	padding: 0;
@@ -76,7 +76,7 @@ header>hr {
 
 .middle>hr {
 	width: 50%;
-	color: #341a00 0.5;
+	color: #341a00;
 }
 
 .middle {
