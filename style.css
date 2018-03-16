@@ -1,9 +1,8 @@
 body {
-	background-color: rgba(241, 230, 201,0.1);
 	font-family: 'Sail';
 	font-size: 15px;
-	padding: 0;
-	margin: 0;
+	margin:0;
+
 }
 
 /*
@@ -24,7 +23,8 @@ body {
 header {
 	width: inherit;
 	background-color: #f1e6c9;
-	margin-top: 5px;
+	margin-top: 0px;
+
 	flex-direction: row;
 }
 
@@ -46,6 +46,7 @@ header>h1 {
 header>h5 {
     margin-top: 0px;
     margin-bottom: 2px;
+    margin-left: 3px;
     color: #2b2121;
 }
 
@@ -122,6 +123,7 @@ header>hr {
 	text-align: center;
 	margin-top: 0;
 	font-size: 15px;
+	font-weight: 2em;
 	color: #341a00;
 }
 /*
